@@ -46,7 +46,6 @@ function App() {
             onChange={(e) => setHour(e.currentTarget.value)}
             type="number"
             placeholder="Hours"
-            min={0}
           />
           <input type="submit" value="Add" />
         </form>
